@@ -33,8 +33,8 @@ function Home() {
             <div className="py-5" style={backgroundStyle}>
                 <div className="container">
                     <div className="p-5 text-center rounded-3">
-                        <h2 className="text-body-emphasis">About Me</h2>
-                        <p className="col-lg-8 mx-auto fs-5">
+                        <h2 className="text-body-emphasis display-5">About Me</h2>
+                        <p className="col-lg-9 mx-auto fs-4 ">
                             I'm Qingqing Yang, a passionate UX/UI designer and front-end developer. I specialize in crafting seamless, engaging digital experiences, combining my expertise in design and development for visually appealing and intuitively functional interfaces.
                         </p>
                         <div className="d-inline-flex gap-2 ">

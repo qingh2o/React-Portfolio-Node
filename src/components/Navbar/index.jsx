@@ -4,7 +4,7 @@ import './style.css';
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg fixed-top navbar-light bg-white">
+    <nav className="navbar navbar-expand-lg fixed-top navbar-light bg-light">
       <div className="container">
         <Link className="navbar-brand" to="/">
           QY.
