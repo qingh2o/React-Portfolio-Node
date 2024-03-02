@@ -5,12 +5,12 @@ import './style.css';
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg fixed-top navbar-light bg-white">
-      <div class="container">
+      <div className="container">
         <Link className="navbar-brand" to="/">
           QY.
         </Link>
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
@@ -18,7 +18,7 @@ function Navbar() {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul className="navbar-nav">
