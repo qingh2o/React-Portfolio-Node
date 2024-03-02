@@ -3,13 +3,13 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import Project from './pages/Project';
 import Contact from './pages/Contact';
+import Navbar from './components/Navbar';
 
-
-import './App.css'
 
 function App() {
   return (
-    <Router>       
+    <Router>  
+      <Navbar />
         <Routes>
           <Route path="/" element={<Home/>} />
           <Route path="/home" element={<Home/>} />
