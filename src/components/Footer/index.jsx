@@ -5,7 +5,7 @@ function Footer() {
   return (
     <footer className="bg-white">
       <div className="container">
-        <div className="d-flex flex-wrap justify-content-between align-items-center my-3">
+        <div className="d-flex flex-wrap justify-content-between align-items-center my-3 border-bottom">
           <div className="col-md-4 d-flex align-items-center mb-3 mb-md-0">
             <p className="fs-6 mb-0">&copy; Qing Qing Yang 2024.</p>
           </div>

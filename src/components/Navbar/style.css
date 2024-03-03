@@ -1,4 +1,7 @@
  /* Navigation bar  */
+ .navbar-nav .nav-link {
+    color: #5a0294;
+}
 
 .navbar-nav .nav-link:hover {
     text-decoration: underline 1px solid var(--bs-navbar-hover-color);  
