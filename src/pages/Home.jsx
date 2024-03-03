@@ -8,22 +8,21 @@ function Home() {
         backgroundImage: `url(${Background})`,
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
-    };
-    
+    };   
     return (
-        <div>
+        <main>
             {/* Hero Section */}
             <div className="masthead py-5 bg-light">
-                <div className="container col-xxl-8 px-4 py-5">
+                <div className="container col-xxl-8 px-4 pt-5">
                     <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
-                        <div className="col-10 col-sm-8 col-lg-6 text-center">
+                        <div className="col-12 col-sm-8 col-lg-6 text-center">
                             <img src={QingPhoto} className="mx-lg-auto rounded-3 img-fluid" style={{ maxWidth: 230 }} alt="Qing photo" />
                         </div>
-                        <div className="col-lg-6">
-                            <div className="m-auto text-left px-4">
+                        <div className="col-12 col-sm-6 col-lg-6">
+                            <div className="m-auto text-left p-4">
                                 <h1 className="display-5 fw-bolder text-body-emphasia 1h-1 mb-3">Hi, I'm Qing,</h1>
                                 <h2 className="display-4 fw-bolder 1h-1 mb-3">Web Designer</h2>
-                                <p className="fs-4">Let's collaborate to bring innovative and user-centric solutions to life.</p>
+                                <p className="fs-4 display-3">Let's collaborate to bring innovative and user-centric solutions to life.</p>
                             </div>
                         </div>
                     </div>
@@ -45,7 +44,7 @@ function Home() {
                     </div>
                 </div>
             </div>
-        </div>
+        </main>
     );
 }
 
