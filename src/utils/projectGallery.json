@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "name": "CSS Portfolio",
+    "image": "https://placehold.co/600x400",
+    "url": "https://qingh2o.github.io/css-portfolio/",
+    "description": "Created a portfolio page using HTML and CSS to showcase my projects.",
+    "github": "https://github.com/qingh2o/css-portfolio"
+  },
+  {
+    "id": 2,
+    "name": "Horiseon",
+    "image": "https://placehold.co/600x400",
+    "url": "https://qingh2o.github.io/Day04-challenge/",
+    "description": "Refactor an existing site to make it more accessible.",
+    "github": "https://github.com/qingh2o/Day04-challenge"
+  },
+  {
+    "id": 3,
+    "name": "Password Generator",
+    "image": "https://placehold.co/600x400",
+    "url": "https://qingh2o.github.io/Password-Generator-JavaScript/",
+    "description": "Created a password generator using HTML, CSS and JavaScript.",
+    "github": "https://github.com/qingh2o/Password-Generator-JavaScript"
+  },
+  {
+    "id": 4,
+    "name": "Spotted App",
+    "image": "https://placehold.co/600x400",
+    "url": "https://vickysug.github.io/spotted-app/",
+    "description": "Created a social media spotted app using HTML and JavaScript.",
+    "github": "https://github.com/qingh2o/spotted-app"
+  },
+  {
+    "id": 5,
+    "name": "Weather Dashboard",
+    "image": "https://placehold.co/600x400",
+    "url": "https://qingh2o.github.io/Weather-Dashboard-JS-API/",
+    "description": "Created a weather dashboard using HTML and JavaScript.",
+    "github": "https://github.com/qingh2o/Weather-Dashboard-JS-API"
+  },
+  {
+    "id": 6,
+    "name": "Code Quiz",
+    "image": "https://placehold.co/600x400",
+    "url": "https://qingh2o.github.io/Code-Quiz-JS/",
+    "description": "Created a code quiz using HTML, CSS and JavaScript.",
+    "github": "https://github.com/qingh2o/Code-Quiz-JS"
+  }
+
+]
