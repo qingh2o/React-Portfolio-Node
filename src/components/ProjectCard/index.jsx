@@ -1,19 +1,23 @@
 import React from "react";
 import "./style.css";
 
-function FriendCard(props) {
+function ProjectCard(props) {
   return (
-    <div class="card h-100">
-    <img class="card-img-top" src={props.image} alt={props.name}/>
-    <div class="card-body d-flex flex-column">
-        <h5>{props.name}</h5>
-        <p class="card-text text-secondary">{props.description}</p>
-        <a href={props.url} class="btn btn-secondary stretched-link mt-auto">Website</a>
-        <a href={props.github}  class="btn btn-secondary stretched-link mt-auto">GitHub</a>
+    <div className="col-md-4 mb-4 ">
+      <div className="card h-100 d-flex flex-column text-center">
+        <img className="card-img-top" src={props.image} alt={props.name} />
+        <div className="card-body d-flex flex-column flex-grow-1">
+          <h5>{props.name}</h5>
+          <p className="card-text text-secondary flex-grow-1">{props.description}</p>
+          <div class="mt-auto d-inline-flex justify-content-center gap-3">
+            <a href={props.url} class="card-link btn btn-light">Website</a>
+            <a href={props.github} class="card-link btn btn-light">GitHub</a>
+          </div>
+        </div>
+      </div>
     </div>
-</div>
   );
 }
 
-export default FriendCard;
+export default ProjectCard;
 
