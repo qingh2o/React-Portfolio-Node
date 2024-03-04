@@ -54,9 +54,10 @@ This project is licensed under the MIT license.
 ## Tests
 
 * To test whether the application meets critical requirements.
+
   * First, start the app by running the following command:
 
-  ```bash
+  ```
   npm run dev
   ```
   * Then, check on the browser at [http://localhost:5173](http://localhost:5173).
