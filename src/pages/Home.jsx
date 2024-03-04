@@ -4,17 +4,19 @@ import Background from '../utils/background.jpg';
 import ResumePDF from '../utils/Resume-Qing-Qing-Yang.pdf';
 
 function Home() {
-
+    // Add background image
     const backgroundStyle = {
         backgroundImage: `url(${Background})`,
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
     };
 
+    // Open the PDF file in a window
     const openResume = () => {
         window.open(ResumePDF, '_blank');
     };
 
+    // Open the google docs file in a window
     const openPortfolio = () => {
         window.open("https://docs.google.com/presentation/d/1O7NykgbqAva0EgI93KSyETh7jIWwNgwOV3IMhr5ixTA/edit?usp=sharing");
     }
@@ -26,7 +28,13 @@ function Home() {
                 <div className="container col-xxl-8 px-4 pt-5">
                     <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
                         <div className="col-12 col-lg-6 text-center">
-                            <img src={QingPhoto} className="mx-lg-auto rounded-3 img-fluid" style={{ maxWidth: 230 }} alt="Qing photo" />
+                            {/* My photo */}
+                            <img
+                                src={QingPhoto}
+                                className="mx-lg-auto rounded-3 img-fluid"
+                                style={{ maxWidth: 230 }}
+                                alt="Qing photo"
+                            />
                         </div>
                         <div className="col-12 col-lg-6">
                             <div className="m-auto text-left p-4">
@@ -50,12 +58,15 @@ function Home() {
                             I'm Qingqing Yang, a passionate UX/UI designer and front-end developer. I specialize in crafting seamless, engaging digital experiences, combining my expertise in design and development for visually appealing and intuitively functional interfaces.
                         </p>
                         <div className="d-inline-flex gap-2 ">
-                            <button className="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill"
+                            {/* Open PDF file */}
+                            <button
+                                className="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill"
                                 type="button"
                                 onClick={openResume}
                             >
                                 Resume
                             </button>
+                            {/* Open google file */}
                             <button
                                 className="d-inline-flex align-items-center btn btn-outline-dark btn-lg px-4 rounded-pill"
                                 type="button"
