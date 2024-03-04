@@ -16,6 +16,7 @@ function Project() {
                 </div>
             <div className="container">
                 <div className="row">
+                {/* Iterate over the projectGallery array */}
                     {projectGallery.map((project) => (
                         <ProjectCard
                             key={project.id}
