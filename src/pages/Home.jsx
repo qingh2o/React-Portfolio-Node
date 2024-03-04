@@ -3,8 +3,6 @@ import QingPhoto from '../utils/QingqingYang-photo.jpg';
 import Background from '../utils/background.jpg';
 import ResumePDF from '../utils/Resume-Qing-Qing-Yang.pdf';
 
-
-
 function Home() {
 
     const backgroundStyle = {
