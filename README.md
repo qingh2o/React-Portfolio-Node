@@ -47,6 +47,20 @@ To use the React-Portfolio-Node, you can download or clone this repository.
 
 To view walkthrough Demo, watch the video below:
 
+
+
+https://github.com/qingh2o/React-Portfolio-Node/assets/144452799/1c708a85-e19c-4563-977c-b7557ef23536
+
+
+
+To view contact form input validation Demo, watch the video below:
+
+
+
+https://github.com/qingh2o/React-Portfolio-Node/assets/144452799/1f2d2814-8aba-4c63-b6ee-3ee10c54891f
+
+
+
 ## License
 
 This project is licensed under the MIT license.
