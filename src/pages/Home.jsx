@@ -1,6 +1,9 @@
 import React from 'react';
 import QingPhoto from '../utils/QingqingYang-photo.jpg';
 import Background from '../utils/background.jpg';
+import ResumePDF from '../utils/Resume-Qing-Qing-Yang.pdf';
+
+
 
 function Home() {
 
@@ -9,6 +12,15 @@ function Home() {
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
     };
+
+    const openResume = () => {
+        window.open(ResumePDF, '_blank');
+    };
+
+    const openPortfolio = () => {
+        window.open("https://docs.google.com/presentation/d/1O7NykgbqAva0EgI93KSyETh7jIWwNgwOV3IMhr5ixTA/edit?usp=sharing");
+    }
+
     return (
         <main>
             {/* Hero Section */}
@@ -40,11 +52,18 @@ function Home() {
                             I'm Qingqing Yang, a passionate UX/UI designer and front-end developer. I specialize in crafting seamless, engaging digital experiences, combining my expertise in design and development for visually appealing and intuitively functional interfaces.
                         </p>
                         <div className="d-inline-flex gap-2 ">
-                            <button className="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill" type="button">
-                               Resume
+                            <button className="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill"
+                                type="button"
+                                onClick={openResume}
+                            >
+                                Resume
                             </button>
-                            <button className="d-inline-flex align-items-center btn btn-outline-dark btn-lg px-4 rounded-pill" type="button">
-                               Portfolio
+                            <button
+                                className="d-inline-flex align-items-center btn btn-outline-dark btn-lg px-4 rounded-pill"
+                                type="button"
+                                onClick={openPortfolio}
+                            >
+                                Portfolio
                             </button>
                         </div>
                     </div>
