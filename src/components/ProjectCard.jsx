@@ -1,7 +1,6 @@
 import React from "react";
 
 function ProjectCard(props) {
- 
   return (
     <div className="col-md-4 mb-4 ">
       <div className="card h-100 d-flex flex-column text-center border border-light shadow-sm">
@@ -10,8 +9,8 @@ function ProjectCard(props) {
           <h5>{props.name}</h5>
           <p className="card-text text-secondary flex-grow-1">{props.description}</p>
           <div className="mt-auto d-inline-flex justify-content-center gap-3">
-            <a href={props.url} className="card-link btn btn-light">Website</a>
-            <a href={props.github} className="card-link btn btn-light">GitHub</a>
+            <a href={props.url} className="btn btn-info">Website</a>
+            <a href={props.github} className="btn btn-info">GitHub</a>
           </div>
         </div>
       </div>
