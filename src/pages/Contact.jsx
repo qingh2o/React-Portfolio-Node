@@ -39,8 +39,11 @@ function Contact() {
         else if (!formData.message || formData.message.trim() === "") {
             alert('Please enter your message!');
         }
-        else {
-            alert(`Your message has been sent! Thank you!`);
+        else {           
+            const mailtoLink = `mailto:chingchingduncan@gmail.com?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(formData.message)}`;
+            window.location.href = mailtoLink;
+
+            alert(`Your email will open on the new window!`);
             //Clear input fields after the user correctly fill out the form and submit it.
             setFormData({
                 fullName: '',
@@ -68,17 +71,17 @@ function Contact() {
                     <div className="row gy-3 gy-md-4 gy-lg-0 align-items-xl-center">
                         <div className="col-12 col-lg-6 text-center">
                             <img className="img-fluid rounded" loading="lazy" src={ContactImage} style={{ maxWidth: '80%', height: 'auto' }} alt="Get in Touch" />
-                        </div>                      
+                        </div>
                         <div className="col-12 col-lg-6">
                             <div className="row justify-content-xl-center">
                                 <div className="col-12 col-xl-11">
                                     <div className="bg-white border rounded shadow-sm overflow-hidden">
-                                         {/* Contact From */}
+                                        {/* Contact From */}
                                         <form >
                                             <div className="row gy-4 gy-xl-5 p-4 p-xl-5">
                                                 <div className="col-12">
                                                     <label htmlFor="fullName" className="form-label">Full Name <span className="text-danger">*</span></label>
-                                                     {/* Full name input*/}
+                                                    {/* Full name input*/}
                                                     <input
                                                         type="text"
                                                         className='form-control'

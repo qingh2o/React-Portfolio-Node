@@ -13,8 +13,8 @@ function ProjectCard(props) {
         <div className="card-body d-flex flex-column flex-grow-1">          
           {/* project information */}
           <h5>{props.name}</h5>
-          <p className="card-text text-secondary flex-grow-1">{props.description}</p>
-          <div className="mt-auto d-inline-flex justify-content-center gap-3">
+          <h6 style={{fontSize: '14px' }} className="card-text text-secondary flex-grow-1 p-3">{props.description}</h6>
+          <div className="mt-auto mb-3  d-inline-flex justify-content-center gap-3">
             {/* Url and GitHub links */}
             <a href={props.url} className="btn btn-info" target="_blank">Website</a>
             <a href={props.github} className="btn btn-info" target="_blank">GitHub</a>

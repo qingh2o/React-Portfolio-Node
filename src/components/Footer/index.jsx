@@ -13,7 +13,7 @@ function Footer() {
             {/* social links */}
             <li><a className="link-body-emphasis mx-2" href="https://www.linkedin.com/in/qing-qing-yang-designer/" target="_blank" aria-label="Browse Linkedin"><i className="bi bi-linkedin"></i></a></li>
             <li><a className="link-body-emphasis mx-2" href="https://github.com/qingh2o" target="_blank" aria-label="Browse Github"><i className="bi bi-github"></i></a></li>
-            <li><a className="link-body-emphasis mx-2" href="https://github.com/qingh2o" target="_blank" aria-label="Browse Facebook"><i className="bi bi-facebook"></i></a></li>
+            <li><a className="link-body-emphasis mx-2" href="https://www.facebook.com/qingqing.yang.94" target="_blank" aria-label="Browse Facebook"><i className="bi bi-facebook"></i></a></li>
           </ul>
         </div>
       </div>

@@ -35,12 +35,12 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <NavLink
-                to="/project"
+                to="/projects"
                 className={({ isActive }) =>
                   isActive ? 'nav-link active' : 'nav-link'
                 }
               >
-                Project
+                Projects
               </NavLink>
             </li>
             <li className="nav-item">
