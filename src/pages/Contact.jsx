@@ -172,7 +172,7 @@ function Contact() {
                     </div>
                 </section>
                 {/* Email Address */}
-                <section className="container pt-5 pt-md-5">
+                <section className="container mt-5 pt-5 pt-md-5">
                     <div className="row justify-content-md-center">
                         <div className="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
                             <h3 className="fs-6 text-secondary mb-2 text-uppercase text-center">Email Me</h3>
