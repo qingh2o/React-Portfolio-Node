@@ -21,14 +21,12 @@ function Navbar() {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
-          <ul className="navbar-nav">
+
+          <ul className="navbar-nav ms-auto">
             <li className="nav-item">
               <NavLink
                 to="/"
-                end
-                className={({ isActive }) =>
-                  isActive ? 'nav-link active' : 'nav-link'
-                }
+                className="nav-link"    
               >
                 Home
               </NavLink>
@@ -36,9 +34,7 @@ function Navbar() {
             <li className="nav-item">
               <NavLink
                 to="/projects"
-                className={({ isActive }) =>
-                  isActive ? 'nav-link active' : 'nav-link'
-                }
+                className="nav-link"          
               >
                 Projects
               </NavLink>
@@ -46,9 +42,7 @@ function Navbar() {
             <li className="nav-item">
               <NavLink
                 to="/contact"
-                className={({ isActive }) =>
-                  isActive ? 'nav-link active' : 'nav-link'
-                }
+                className="nav-link"       
               >
                 Contact
               </NavLink>
