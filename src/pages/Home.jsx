@@ -24,7 +24,7 @@ function Home() {
     return (
         <main>
             {/* Hero Section */}
-            <div className="masthead py-5 bg-light">
+            <section className="masthead py-5 bg-light">
                 <div className="container col-xxl-8 px-4 pt-5">
                     <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
                         <div className="col-12 col-lg-6 text-center">
@@ -46,9 +46,9 @@ function Home() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
             {/* About Section */}
-            <div className="py-5" style={backgroundStyle}>
+            <section className="py-5" style={backgroundStyle}>
                 <div className="container ">
                     <div className="p-5 text-center rounded-3">
                         <h3 className="fs-4 mb-2 text-uppercase">
@@ -77,7 +77,7 @@ function Home() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
         </main>
     );
 }

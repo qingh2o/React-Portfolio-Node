@@ -1,20 +1,21 @@
 [
   {
     "id": 1,
-    "name": "CSS Portfolio",
-    "image": "/images/css-portfolio.png",
-    "url": "https://qingh2o.github.io/css-portfolio/",
-    "description": " HTML / CSS",
-    "github": "https://github.com/qingh2o/css-portfolio"
-  },
-  {
-    "id": 2,
     "name": "Weather Dashboard",
     "image": "/images/weather-dashboard.png",
     "url": "https://qingh2o.github.io/Weather-Dashboard-JS-API/",
     "description": "HTML / Bootstrap CSS / JavaScript / jQuery / Dayjs",
     "github": "https://github.com/qingh2o/Weather-Dashboard-JS-API"
   },
+  {
+    "id": 2,
+    "name": "Pathway App",
+    "image": "/images/pathway-app.png",
+    "url": "https://jobpathway.netlify.app/",
+    "description": " React / Vite / Tailwind CSS / Javascript",
+    "github": "https://github.com/qingh2o/css-portfolio"
+  },
+ 
   {
     "id": 3,
     "name": "Code Quiz",

@@ -57,8 +57,8 @@ function Contact() {
 
     return (
         <main>
-            <section className="bg-light py-3 py-md-5">
-                <div className="container">
+            <article className="bg-light py-3 py-md-5">
+                <section className="container">
                     <div className="row justify-content-md-center">
                         <div className="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
                             <h3 className="fs-6 text-secondary mb-2 text-uppercase text-center">Message Me</h3>
@@ -66,8 +66,8 @@ function Contact() {
                             <hr className="w-50 mx-auto mb-5 mb-xl-9 border-dark-subtle" />
                         </div>
                     </div>
-                </div>
-                <div className="container">
+                </section>
+                <section className="container">
                     <div className="row gy-3 gy-md-4 gy-lg-0 align-items-xl-center">
                         <div className="col-12 col-lg-6 text-center">
                             <img className="img-fluid rounded" loading="lazy" src={ContactImage} style={{ maxWidth: '80%', height: 'auto' }} alt="Get in Touch" />
@@ -170,9 +170,9 @@ function Contact() {
                             </div>
                         </div>
                     </div>
-                </div>
+                </section>
                 {/* Email Address */}
-                <div className="container pt-5 pt-md-5">
+                <section className="container pt-5 pt-md-5">
                     <div className="row justify-content-md-center">
                         <div className="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
                             <h3 className="fs-6 text-secondary mb-2 text-uppercase text-center">Email Me</h3>
@@ -181,8 +181,8 @@ function Contact() {
                             <hr className="w-50 mx-auto mb-5 mb-xl-9 border-dark-subtle" />
                         </div>
                     </div>
-                </div>
-            </section>
+                </section>
+            </article>
         </main>
     );
 }
