@@ -5,7 +5,7 @@ import './style.css';
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <div className="container">
+      <div className="container my-2">
         <Link className="navbar-brand" to="/">
           QY.
         </Link>
