@@ -1,7 +1,7 @@
 import React from 'react';
 import QingPhoto from '../utils/QingqingYang-photo.jpg';
 import Background from '../utils/background.jpg';
-import ResumePDF from '../utils/Resume-Qing-Qing-Yang.pdf';
+
 
 function Home() {
     // Add background image
@@ -13,13 +13,13 @@ function Home() {
 
     // Open the PDF file in a window
     const openResume = () => {
-        window.open(ResumePDF, '_blank');
+        window.open("https://docs.google.com/document/d/10VFx4-A32rL9ILVHbXZxciq4Zg6n8gaFfpgkTYjeJaY/edit?tab=t.0");
     };
 
     // Open the google docs file in a window
-    const openPortfolio = () => {
-        window.open("https://docs.google.com/presentation/d/1O7NykgbqAva0EgI93KSyETh7jIWwNgwOV3IMhr5ixTA/edit?usp=sharing");
-    }
+    // const openPortfolio = () => {
+    //     window.open("https://docs.google.com/presentation/d/1O7NykgbqAva0EgI93KSyETh7jIWwNgwOV3IMhr5ixTA/edit?usp=sharing");
+    // }
 
     return (
         <main>
@@ -64,16 +64,16 @@ function Home() {
                                 type="button"
                                 onClick={openResume}
                             >
-                                Resume
+                                View My Resume
                             </button>
                             {/* Open google file */}
-                            <button
+                            {/* <button
                                 className="d-inline-flex align-items-center btn btn-outline-dark btn-lg px-4 rounded-pill"
                                 type="button"
                                 onClick={openPortfolio}
                             >
-                                Portfolio
-                            </button>
+                                View Desgin Portfolio
+                            </button> */}
                         </div>
                     </div>
                 </div>
